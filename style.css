@@ -39,6 +39,13 @@ body {
     padding: 40px 0 0;
 }
 
+@media screen and (max-width: 700px) {
+    .header-banner {
+        flex-direction: column;
+    }
+    
+}
+
 /* Sección de entrada */
 .input-section {
     flex: 60%;
